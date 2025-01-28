@@ -1,4 +1,4 @@
-# OpenRouter AI Model Interaction Scripts
+# Multi stage critical thinking with reasoning models
 
 This repository contains two Python scripts for interacting with OpenRouter's AI models, featuring retry mechanisms and different interaction patterns.
 
@@ -20,7 +20,7 @@ script that implements an iterative critique system using multiple AI models.
 
 ## 🎥 Watch How It's Built!
 
-**[Watch the complete build process on Patreon](https://www.patreon.com/posts/how-to-build-o1-112197565?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)**
+**[Watch the complete build process on Patreon]([[https://www.patreon.com/posts/how-to-build-o1-112197565](https://www.patreon.com/posts/multi-stage-with-120989270)])**
 See exactly how this automation system was created step by step, with detailed explanations and insights into the development process.
 
 
