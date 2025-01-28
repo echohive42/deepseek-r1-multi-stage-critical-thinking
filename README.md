@@ -20,7 +20,7 @@ script that implements an iterative critique system using multiple AI models.
 
 ## 🎥 Watch How It's Built!
 
-**[Watch the complete build process on Patreon]([[https://www.patreon.com/posts/how-to-build-o1-112197565](https://www.patreon.com/posts/multi-stage-with-120989270)])**
+**[Watch the complete build process on Patreon](https://www.patreon.com/posts/multi-stage-with-120989270)**
 See exactly how this automation system was created step by step, with detailed explanations and insights into the development process.
 
 
