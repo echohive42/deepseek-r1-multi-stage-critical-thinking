@@ -4,45 +4,11 @@ This repository contains two Python scripts for interacting with OpenRouter's AI
 
 ## Prerequisites
 
-- Python 3.6+
 - OpenRouter API key (set as environment variable `OPENROUTER_API_KEY`)
 
-## Installation
+dual_model_critique.py
 
-1. Clone the repository
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-## Scripts Overview
-
-### 1. openrouter_reasoning.py
-
-A script that makes a single call to an AI model and retrieves both the response content and reasoning.
-
-#### Features:
-- Makes API calls to OpenRouter with retry mechanism
-- Includes reasoning in model responses
-- Saves responses to JSON file
-- Handles rate limiting and resource exhaustion
-- Colored console output for better readability
-
-#### Usage:
-```bash
-export OPENROUTER_API_KEY="your-api-key"
-python openrouter_reasoning.py
-```
-
-#### Configuration:
-- `MODEL`: Primary model (default: "deepseek/deepseek-r1")
-- `MODEL_2`: Secondary model (default: "google/gemini-2.0-flash-thinking-exp:free")
-- `MAX_RETRIES`: Number of retry attempts (default: 3)
-- `RETRY_DELAYS`: Delay in seconds between retries (default: [1, 3, 5])
-
-### 2. dual_model_critique.py
-
-A more complex script that implements an iterative critique system using multiple AI models.
+script that implements an iterative critique system using multiple AI models.
 
 #### Features:
 - Multi-turn conversation with alternating models
@@ -51,6 +17,25 @@ A more complex script that implements an iterative critique system using multipl
 - Alternates between different critique models
 - Saves each iteration to JSON
 - Enhanced error handling and retry mechanism
+
+## 🎥 Watch How It's Built!
+
+**[Watch the complete build process on Patreon](https://www.patreon.com/posts/how-to-build-o1-112197565?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)**
+See exactly how this automation system was created step by step, with detailed explanations and insights into the development process.
+
+
+## ❤️Join my AI community & Get 400+ AI Projects
+
+This is one of 400+ fascinating projects in my collection! [Support me on Patreon](https://www.patreon.com/c/echohive42/membership) to get:
+
+- 🎯 Access to 400+ AI projects (and growing daily!)
+  - Including advanced projects like [2 Agent Real-time voice template with turn taking](https://www.patreon.com/posts/2-agent-real-you-118330397)
+- 📥 Full source code & detailed explanations
+- 📚 1000x Cursor Course
+- 🎓 Live coding sessions & AMAs
+- 💬 1-on-1 consultations (higher tiers)
+- 🎁 Exclusive discounts on AI tools & platforms (up to $180 value)
+
 
 #### Usage:
 ```bash
